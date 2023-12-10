@@ -1,11 +1,11 @@
 import { Route, Routes } from 'react-router';
 import './styles/index.scss';
 import { Link } from 'react-router-dom';
-import { AbutPageAsync } from './components/pages/AbuotPage/AbuotPage.async';
-import { MainPageAsync } from './components/pages/MainPage/MainPageAsync.async';
 import { Suspense } from 'react';
-import { useTheme } from './theme/useTheme';
-import { classNames } from './helpers/classNames/classNames';
+import { classNames } from '../shared/lib/classNames/classNames';
+import { useTheme } from './providers/ThemeProvider';
+import { AbutPageAsync } from 'pages/AbuotPage';
+import { MainPageAsync } from 'pages/MainPage';
 
 const App = () => {
   const { theme, toggleTheme } = useTheme();
