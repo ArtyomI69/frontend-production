@@ -1,6 +1,6 @@
 import { lazy } from 'react';
 
-export const AbutPageAsync = lazy(
+export const AboutPageAsync = lazy(
   () =>
     new Promise((resolve) => {
       setTimeout(() => {
