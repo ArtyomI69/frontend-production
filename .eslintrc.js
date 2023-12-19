@@ -31,6 +31,7 @@ module.exports = {
     'import/order': 'off',
     'object-curly-newline': 'off',
     'i18next/no-literal-string': ['error', { markupOnly: true, onlyAttribute: [''] }],
+    'react/self-closing-comp': 'off',
   },
   globals: {
     __IS_DEV__: true,
