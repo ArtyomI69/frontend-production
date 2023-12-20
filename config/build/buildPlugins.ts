@@ -8,6 +8,7 @@ import {
 import { BuildOptions } from './types/config';
 import MiniCssExtractPlugin from 'mini-css-extract-plugin';
 import ReactRefreshPlugin from '@pmmmwh/react-refresh-webpack-plugin';
+import { BundleAnalyzerPlugin } from 'webpack-bundle-analyzer';
 
 export function buildPlugins({ paths, isDev }: BuildOptions): WebpackPluginInstance[] {
   return [
@@ -24,5 +25,6 @@ export function buildPlugins({ paths, isDev }: BuildOptions): WebpackPluginInsta
     }),
     new HotModuleReplacementPlugin(),
     new ReactRefreshPlugin(),
+    new BundleAnalyzerPlugin({ openAnalyzer: false }),
   ];
 }
