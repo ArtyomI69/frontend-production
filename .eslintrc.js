@@ -12,6 +12,7 @@ module.exports = {
     'plugin:storybook/recommended',
     'plugin:storybook/recommended',
     'plugin:storybook/recommended',
+    'plugin:react-hooks/recommended',
   ],
   parser: '@typescript-eslint/parser',
   parserOptions: {
@@ -21,7 +22,7 @@ module.exports = {
     ecmaVersion: 'latest',
     sourceType: 'module',
   },
-  plugins: ['react', '@typescript-eslint', 'eslint-plugin-prettier', 'i18next'],
+  plugins: ['react', '@typescript-eslint', 'eslint-plugin-prettier', 'i18next', 'react-hooks'],
   rules: {
     'react/jsx-filename-extension': [
       2,
@@ -52,6 +53,11 @@ module.exports = {
     ],
     'react/self-closing-comp': 'off',
     'linebreak-style': 0,
+    'jsx-a11y/click-events-have-key-events': 'off',
+    'jsx-a11y/no-static-element-interactions': 'off',
+    'arrow-body-style': 'off',
+    'react-hooks/rules-of-hooks': 'error',
+    'react-hooks/exhaustive-deps': 'error',
   },
   globals: {
     __IS_DEV__: true,
