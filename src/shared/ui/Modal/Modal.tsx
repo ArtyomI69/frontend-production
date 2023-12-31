@@ -1,3 +1,4 @@
+import FocusLock from 'react-focus-lock';
 import React, { FC, ReactNode, useCallback, useEffect, useRef, useState } from 'react';
 import { classNames } from 'shared/lib/classNames/classNames';
 import { Portal } from '../Portal/Portal';
@@ -57,13 +58,15 @@ export const Modal: FC<ModalProps> = (props) => {
 
   return (
     <Portal>
-      <div className={classNames(cls.Modal, mods, [className])}>
-        <div onClick={closeHandler} className={cls.overlay}>
-          <div onClick={onContentClick} className={cls.content}>
-            {children}
+      <FocusLock>
+        <div className={classNames(cls.Modal, mods, [className])}>
+          <div onClick={closeHandler} className={cls.overlay}>
+            <div onClick={onContentClick} className={cls.content}>
+              {children}
+            </div>
           </div>
         </div>
-      </div>
+      </FocusLock>
     </Portal>
   );
 };
