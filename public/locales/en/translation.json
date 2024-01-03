@@ -1,5 +1,7 @@
 {
   "Войти": "Login",
+  "Вы ввели неверный логин или пароль": "You entered wrong login or password",
+  "Выйти": "Logout",
   "Выкинуть ошибку": "Throw error",
   "Главная": "Main",
   "Главная страница": "Main Page",
@@ -12,5 +14,6 @@
   "Произошла непредвиденная ошибка": "Unexpected error occured",
   "Страница не найдена": "Page Not Found",
   "Тестовый пример": "Test example",
+  "Форма авторизации": "Authorization form",
   "Язык": "English"
 }

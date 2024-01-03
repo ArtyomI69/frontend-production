@@ -90,6 +90,7 @@
     "@pmmmwh/react-refresh-webpack-plugin": "^0.5.5",
     "@reduxjs/toolkit": "^1.8.0",
     "@svgr/webpack": "^6.2.1",
+    "axios": "^0.26.1",
     "babel-plugin-react-require": "^4.0.2",
     "file-loader": "^6.2.0",
     "i18next": "^21.6.11",
