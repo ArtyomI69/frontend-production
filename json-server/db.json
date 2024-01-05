@@ -25,5 +25,14 @@
       "password": "123"
     }
   ],
-  "profile": { "name": "typicode" }
+  "profile": {
+    "first": "Артем",
+    "lastname": "Иванов",
+    "age": 18,
+    "currency": "RUB",
+    "country": "Russia",
+    "city": "Tver",
+    "username": "admin",
+    "avatar": "https://s1.1zoom.ru/big7/474/Mountains_Grasslands_354282.jpg"
+  }
 }
