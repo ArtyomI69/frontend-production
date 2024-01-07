@@ -17,7 +17,7 @@ interface ProfileCardProps {
 export const ProfileCard: FC<ProfileCardProps> = (props) => {
   const { className } = props;
 
-  const { t } = useTranslation('profile');
+  const { t } = useTranslation();
 
   const data = useSelector(getProfileData);
   const isLoading = useSelector(getProfileIsLoading);

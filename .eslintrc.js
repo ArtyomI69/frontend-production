@@ -60,6 +60,7 @@ module.exports = {
     'react-hooks/exhaustive-deps': 'error',
     'no-param-reassign': 'off',
     'jsx-a11y/label-has-associated-control': 'off',
+    'no-undef': 'off',
   },
   globals: {
     __IS_DEV__: true,

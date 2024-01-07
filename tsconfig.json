@@ -25,10 +25,5 @@
       "module": "CommonJS"
     }
   },
-  "include": [
-    "./config/jest/setupTests.ts",
-    "./src/**/*.ts",
-    "./src/**/*.tsx",
-    "src/entities/Profile/ui/ProfileCard"
-  ]
+  "include": ["./config/jest/setupTests.ts", "./src/**/*.ts", "./src/**/*.tsx"]
 }
