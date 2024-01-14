@@ -6,9 +6,13 @@
 .input {
   background: transparent;
   outline: none;
-  border: 1px solid var(--inverted-primary-color);
+  border: 1px solid var(--primary-color);
   color: var(--primary-color);
   width: 100%;
   padding: 10px 5px;
   font: var(--input-font-size);
+}
+
+.readonly {
+  opacity: 0.7;
 }

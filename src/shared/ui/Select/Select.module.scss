@@ -1,0 +1,18 @@
+.Wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.select {
+  background: transparent;
+  outline: none;
+  color: var(--primary-color);
+  padding: 10px 5px;
+  border: 1px solid var(--primary-color);
+  width: fit-content;
+}
+
+.option {
+  color: var(--inverted-primary-color);
+  background: var(--inverted-bg-color);
+}
