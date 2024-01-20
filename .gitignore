@@ -1,5 +1,6 @@
 /node_modules/
 /build/
+/.fttemplates/
 /.vscode/
 /storybook-static/
 .loki/report.html
