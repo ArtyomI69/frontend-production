@@ -30,10 +30,10 @@ export function buildPlugins({
       __API__: JSON.stringify(apiUrl),
       __PROJECT__: JSON.stringify(project),
     }),
-    new ReactRefreshPlugin(),
   ];
 
   if (isDev) {
+    plugins.push(new ReactRefreshPlugin());
     plugins.push(new HotModuleReplacementPlugin());
     plugins.push(new BundleAnalyzerPlugin({ openAnalyzer: false }));
   }
