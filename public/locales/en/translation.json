@@ -25,11 +25,15 @@
   "Попробуйте обновить страницу": "Try to reload page",
   "Произошла непредвиденная ошибка": "Unexpected error occured",
   "Произошла ошибка загрузки профиля": "Error happened during loading of profile",
+  "Произошла ошибка при загрузке статьи": {
+    "": ""
+  },
   "Профиль": "Profile",
   "Редактировать": "Edit",
   "Серверная ошибка при сохранении": "Server error during saving",
   "Сохранить": "Save",
   "Статьи": "Articles",
+  "Статья не найдена": "Article not found",
   "Страница не найдена": "Page Not Found",
   "Страница профиля": "Profile Page",
   "Тестовый пример": "Test example",
