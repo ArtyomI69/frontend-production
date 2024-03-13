@@ -1,5 +1,5 @@
 import { articleDetailsReducer } from '../../model/slice/articleDetailsSlice';
-import { memo, useCallback, useEffect } from 'react';
+import { memo, useCallback } from 'react';
 import { useTranslation } from 'react-i18next';
 import { classNames } from 'shared/lib/classNames/classNames';
 import {
@@ -24,6 +24,7 @@ import { ArticleBlock, ArticleBlockType } from '../../model/types/article';
 import { ArticleCodeBlockComponent } from '../ArticleCodeBlockComponent/ArticleCodeBlockComponent';
 import { ArticleImageBlockComponent } from '../ArticleImageBlockComponent/ArticleImageBlockComponent';
 import { ArticleTextBlockComponent } from '../ArticleTextBlockComponent/ArticleTextBlockComponent';
+import { useInitialEffect } from 'shared/lib/hooks/useInitialEffect/useInitialEffect';
 
 interface ArticleDetailsProps {
   className?: string;
@@ -55,11 +56,9 @@ export const ArticleDetails = memo((props: ArticleDetailsProps) => {
     }
   }, []);
 
-  useEffect(() => {
-    if (__PROJECT__ !== 'storybook') {
-      dispatch(fetchArticleById(id));
-    }
-  }, [dispatch, id]);
+  useInitialEffect(() => {
+    dispatch(fetchArticleById(id));
+  });
 
   let content;
 
@@ -75,7 +74,7 @@ export const ArticleDetails = memo((props: ArticleDetailsProps) => {
       </>
     );
   } else if (error) {
-    content = <Text align={TextAlign.CENTER} title={t('Произошла ошибка при загрузке статьи.')} />;
+    content = <Text align={TextAlign.CENTER} title={t('Произошла ошибка при загрузке статьи')} />;
   } else {
     content = (
       <>
