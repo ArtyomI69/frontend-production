@@ -19,7 +19,9 @@
       "img": "https://teknotower.com/wp-content/uploads/2020/11/js.png",
       "views": 1022,
       "createdAt": "26.02.2022",
-      "type": ["IT"],
+      "type": [
+        "IT"
+      ],
       "blocks": [
         {
           "id": "1",
@@ -100,6 +102,30 @@
       "text": "some comment 3",
       "articleId": "1",
       "userId": "1"
+    },
+    {
+      "articleId": "1",
+      "userId": "1",
+      "text": "123",
+      "id": "75_J0Cc"
+    },
+    {
+      "articleId": "1",
+      "userId": "2",
+      "text": "2",
+      "id": "Ii04-zv"
+    },
+    {
+      "articleId": "1",
+      "userId": "2",
+      "text": "Привет",
+      "id": "KDozVuD"
+    },
+    {
+      "articleId": "1",
+      "userId": "2",
+      "text": "выфвфы",
+      "id": "xgG3NYQ"
     }
   ],
   "users": [
@@ -115,17 +141,31 @@
       "username": "user",
       "password": "123",
       "role": "USER",
-      "avatar": "https://thehill.com/wp-content/uploads/sites/2/2022/01/ca_graywolfyellowstone_010722istock.jpg?w=1280"
+      "avatar": "https://firstforwildlife.files.wordpress.com/2016/09/shutterstock_161967581.jpg?w=1200"
     }
   ],
-  "profile": {
-    "first": "jgh",
-    "lastname": "asf",
-    "age": 465,
-    "currency": "RUB",
-    "country": "Belarus",
-    "city": "Moscow",
-    "username": "admin213",
-    "avatar": "https://ylianova.ru/800/600/https/gutta.lv/wp-content/uploads/2015/10/test-img.jpg"
-  }
+  "profile": [
+    {
+      "id": "1",
+      "first": "jgh",
+      "lastname": "asf",
+      "age": 465,
+      "currency": "RUB",
+      "country": "Belarus",
+      "city": "Moscow",
+      "username": "admin213",
+      "avatar": "https://thehill.com/wp-content/uploads/sites/2/2022/01/ca_graywolfyellowstone_010722istock.jpg?w=1280"
+    },
+    {
+      "id": "2",
+      "first": "second123",
+      "lastname": "user",
+      "age": 31,
+      "currency": "RUB",
+      "country": "Russia",
+      "city": "Moscow",
+      "username": "artyom",
+      "avatar": "https://firstforwildlife.files.wordpress.com/2016/09/shutterstock_161967581.jpg?w=1200"
+    }
+  ]
 }
