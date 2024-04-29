@@ -45,6 +45,7 @@ module.exports = {
     'react/jsx-curly-brace-presence': 'off',
     'import/order': 'off',
     'object-curly-newline': 'off',
+    'react/no-array-index-key': 'off',
     'i18next/no-literal-string': [
       'error',
       {
