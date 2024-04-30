@@ -19,12 +19,10 @@
       "img": "https://teknotower.com/wp-content/uploads/2020/11/js.png",
       "views": 1022,
       "createdAt": "26.02.2022",
-      "user": {
-        "id": "1",
-        "username": "admin",
-        "avatar": "https://thehill.com/wp-content/uploads/sites/2/2022/01/ca_graywolfyellowstone_010722istock.jpg?w=1280"
-      },
-      "type": ["IT"],
+      "userId": "1",
+      "type": [
+        "IT"
+      ],
       "blocks": [
         {
           "id": "1",
@@ -85,6 +83,50 @@
           ]
         }
       ]
+    },
+    {
+      "id": "2",
+      "title": "Python news",
+      "subtitle": "Python best practices?",
+      "img": "https://careers.recruiteecdn.com/image/upload/q_auto,f_auto,w_1920,c_limit/production/images/AmI4/t4i_ehOG8KdK.png",
+      "views": 1022,
+      "createdAt": "30.03.2022",
+      "userId": "2",
+      "type": [
+        "IT"
+      ],
+      "blocks": [
+        {
+          "id": "1",
+          "type": "TEXT",
+          "title": "Заголовок этого блока",
+          "paragraphs": [
+            "Python — это язык программирования, который широко используется в интернет-приложениях, разработке программного обеспечения, науке о данных и машинном обучении (ML). Разработчики используют Python, потому что он эффективен, прост в изучении и работает на разных платформах. Программы на языке Python можно скачать бесплатно, они совместимы со всеми типами систем и повышают скорость разработки."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "title": "Kotlin news",
+      "subtitle": "Kotlin is super good",
+      "img": "https://img1.daumcdn.net/thumb/R800x0/?scode=mtistory2&fname=https:%2F%2Fblog.kakaocdn.net%2Fdn%2FIzt7y%2FbtqEwSw8gPi%2FBIcQK6fMkn2IkagBaitlTk%2Fimg.png",
+      "views": 1022,
+      "createdAt": "30.02.2022",
+      "userId": "2",
+      "type": [
+        "IT"
+      ],
+      "blocks": [
+        {
+          "id": "1",
+          "type": "TEXT",
+          "title": "Заголовок этого блока",
+          "paragraphs": [
+            "Kotlin is cool"
+          ]
+        }
+      ]
     }
   ],
   "comments": [
@@ -129,6 +171,12 @@
       "userId": "2",
       "text": "выфвфы",
       "id": "xgG3NYQ"
+    },
+    {
+      "articleId": "3",
+      "userId": "2",
+      "text": "kotlin",
+      "id": "vpDgveK"
     }
   ],
   "users": [
