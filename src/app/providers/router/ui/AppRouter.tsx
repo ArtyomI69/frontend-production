@@ -6,7 +6,8 @@ import { RequireAuth } from './RequireAuth';
 
 const AppRouter = () => {
   const renderWithWrapper = useCallback((route: AppRouteProps) => {
-    const element = <div className="page-wrapper">{route.element}</div>;
+    // eslint-disable-next-line react/jsx-no-useless-fragment
+    const element = <>{route.element}</>;
 
     return (
       <Route
@@ -19,12 +20,7 @@ const AppRouter = () => {
 
   return (
     <Suspense fallback={<PageLoader />}>
-      <Routes>
-        {Object.values(routeConfig).map(renderWithWrapper)}
-        {/* {routes.map(({ element, path }) => (
-          <Route key={path} element={<div className="page-wrapper">{element}</div>} path={path} />
-        ))} */}
-      </Routes>
+      <Routes>{Object.values(routeConfig).map(renderWithWrapper)}</Routes>
     </Suspense>
   );
 };

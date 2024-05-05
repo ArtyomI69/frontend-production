@@ -23,6 +23,7 @@ import { AddCommentFormAsync } from 'features/addCommentForm';
 import { addCommentForArticle } from '../../model/services/addCommentForArticle/addCommentForArticle';
 import { Button, ButtonTheme } from 'shared/ui/Button/Button';
 import { RoutePath } from 'shared/config/routeConfig/routeConfig';
+import { Page } from 'shared/ui/Page/Page';
 
 interface ArticleDetailsPageProps {
   className?: string;
@@ -58,23 +59,25 @@ const ArticleDetailsPage: FC<ArticleDetailsPageProps> = (props) => {
 
   if (!id) {
     return (
-      <div className={classNames(cls.articleDetailsPage, {}, [className])}>
+      <Page className={classNames(cls.articleDetailsPage, {}, [className])}>
         {t('Статья не найдена')}
-      </div>
+      </Page>
     );
   }
 
   return (
     <DynamicModuleLoader reducers={reducers} removeAfterUnmount>
-      <Button onClick={onBackToList} theme={ButtonTheme.OUTLINE}>
-        {t('Назад к списку')}
-      </Button>
-      <div className={classNames('', {}, [className])}>
-        <ArticleDetails id={id} />
-        <Text className={cls.commentTitle} title={t('Комментарии')} />
-        <AddCommentFormAsync onSendComment={onSendComment} />
-        <CommentList isLoading={commentsIsLoading} comments={comments} />
-      </div>
+      <Page>
+        <Button onClick={onBackToList} theme={ButtonTheme.OUTLINE}>
+          {t('Назад к списку')}
+        </Button>
+        <div className={classNames('', {}, [className])}>
+          <ArticleDetails id={id} />
+          <Text className={cls.commentTitle} title={t('Комментарии')} />
+          <AddCommentFormAsync onSendComment={onSendComment} />
+          <CommentList isLoading={commentsIsLoading} comments={comments} />
+        </div>
+      </Page>
     </DynamicModuleLoader>
   );
 };

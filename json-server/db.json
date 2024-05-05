@@ -20,9 +20,7 @@
       "views": 1022,
       "createdAt": "26.02.2022",
       "userId": "1",
-      "type": [
-        "IT"
-      ],
+      "type": ["IT"],
       "blocks": [
         {
           "id": "1",
@@ -92,9 +90,7 @@
       "views": 1022,
       "createdAt": "30.03.2022",
       "userId": "2",
-      "type": [
-        "IT"
-      ],
+      "type": ["IT"],
       "blocks": [
         {
           "id": "1",
@@ -114,17 +110,373 @@
       "views": 1022,
       "createdAt": "30.02.2022",
       "userId": "2",
-      "type": [
-        "IT"
-      ],
+      "type": ["IT"],
+      "blocks": [
+        {
+          "id": "1",
+          "type": "TEXT",
+          "title": "Заголовок этого блока",
+          "paragraphs": ["Kotlin is cool"]
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "title": "Kotlin news",
+      "subtitle": "Kotlin is super good",
+      "img": "https://img1.daumcdn.net/thumb/R800x0/?scode=mtistory2&fname=https:%2F%2Fblog.kakaocdn.net%2Fdn%2FIzt7y%2FbtqEwSw8gPi%2FBIcQK6fMkn2IkagBaitlTk%2Fimg.png",
+      "views": 1022,
+      "createdAt": "30.02.2022",
+      "userId": "2",
+      "type": ["IT"],
+      "blocks": [
+        {
+          "id": "1",
+          "type": "TEXT",
+          "title": "Заголовок этого блока",
+          "paragraphs": ["Kotlin is cool"]
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "title": "Python news",
+      "subtitle": "Python best practices?",
+      "img": "https://careers.recruiteecdn.com/image/upload/q_auto,f_auto,w_1920,c_limit/production/images/AmI4/t4i_ehOG8KdK.png",
+      "views": 1022,
+      "createdAt": "30.03.2022",
+      "userId": "2",
+      "type": ["IT"],
       "blocks": [
         {
           "id": "1",
           "type": "TEXT",
           "title": "Заголовок этого блока",
           "paragraphs": [
-            "Kotlin is cool"
+            "Python — это язык программирования, который широко используется в интернет-приложениях, разработке программного обеспечения, науке о данных и машинном обучении (ML). Разработчики используют Python, потому что он эффективен, прост в изучении и работает на разных платформах. Программы на языке Python можно скачать бесплатно, они совместимы со всеми типами систем и повышают скорость разработки."
           ]
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "title": "Kotlin news",
+      "subtitle": "Kotlin is super good",
+      "img": "https://img1.daumcdn.net/thumb/R800x0/?scode=mtistory2&fname=https:%2F%2Fblog.kakaocdn.net%2Fdn%2FIzt7y%2FbtqEwSw8gPi%2FBIcQK6fMkn2IkagBaitlTk%2Fimg.png",
+      "views": 1022,
+      "createdAt": "30.02.2022",
+      "userId": "2",
+      "type": ["IT"],
+      "blocks": [
+        {
+          "id": "1",
+          "type": "TEXT",
+          "title": "Заголовок этого блока",
+          "paragraphs": ["Kotlin is cool"]
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "title": "Python news",
+      "subtitle": "Python best practices?",
+      "img": "https://careers.recruiteecdn.com/image/upload/q_auto,f_auto,w_1920,c_limit/production/images/AmI4/t4i_ehOG8KdK.png",
+      "views": 1022,
+      "createdAt": "30.03.2022",
+      "userId": "2",
+      "type": ["IT"],
+      "blocks": [
+        {
+          "id": "1",
+          "type": "TEXT",
+          "title": "Заголовок этого блока",
+          "paragraphs": [
+            "Python — это язык программирования, который широко используется в интернет-приложениях, разработке программного обеспечения, науке о данных и машинном обучении (ML). Разработчики используют Python, потому что он эффективен, прост в изучении и работает на разных платформах. Программы на языке Python можно скачать бесплатно, они совместимы со всеми типами систем и повышают скорость разработки."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "title": "Kotlin news",
+      "subtitle": "Kotlin is super good",
+      "img": "https://img1.daumcdn.net/thumb/R800x0/?scode=mtistory2&fname=https:%2F%2Fblog.kakaocdn.net%2Fdn%2FIzt7y%2FbtqEwSw8gPi%2FBIcQK6fMkn2IkagBaitlTk%2Fimg.png",
+      "views": 1022,
+      "createdAt": "30.02.2022",
+      "userId": "2",
+      "type": ["IT"],
+      "blocks": [
+        {
+          "id": "1",
+          "type": "TEXT",
+          "title": "Заголовок этого блока",
+          "paragraphs": ["Kotlin is cool"]
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "title": "Python news",
+      "subtitle": "Python best practices?",
+      "img": "https://careers.recruiteecdn.com/image/upload/q_auto,f_auto,w_1920,c_limit/production/images/AmI4/t4i_ehOG8KdK.png",
+      "views": 1022,
+      "createdAt": "30.03.2022",
+      "userId": "2",
+      "type": ["IT"],
+      "blocks": [
+        {
+          "id": "1",
+          "type": "TEXT",
+          "title": "Заголовок этого блока",
+          "paragraphs": [
+            "Python — это язык программирования, который широко используется в интернет-приложениях, разработке программного обеспечения, науке о данных и машинном обучении (ML). Разработчики используют Python, потому что он эффективен, прост в изучении и работает на разных платформах. Программы на языке Python можно скачать бесплатно, они совместимы со всеми типами систем и повышают скорость разработки."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "title": "Kotlin news",
+      "subtitle": "Kotlin is super good",
+      "img": "https://img1.daumcdn.net/thumb/R800x0/?scode=mtistory2&fname=https:%2F%2Fblog.kakaocdn.net%2Fdn%2FIzt7y%2FbtqEwSw8gPi%2FBIcQK6fMkn2IkagBaitlTk%2Fimg.png",
+      "views": 1022,
+      "createdAt": "30.02.2022",
+      "userId": "2",
+      "type": ["IT"],
+      "blocks": [
+        {
+          "id": "1",
+          "type": "TEXT",
+          "title": "Заголовок этого блока",
+          "paragraphs": ["Kotlin is cool"]
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "title": "Python news",
+      "subtitle": "Python best practices?",
+      "img": "https://careers.recruiteecdn.com/image/upload/q_auto,f_auto,w_1920,c_limit/production/images/AmI4/t4i_ehOG8KdK.png",
+      "views": 1022,
+      "createdAt": "30.03.2022",
+      "userId": "2",
+      "type": ["IT"],
+      "blocks": [
+        {
+          "id": "1",
+          "type": "TEXT",
+          "title": "Заголовок этого блока",
+          "paragraphs": [
+            "Python — это язык программирования, который широко используется в интернет-приложениях, разработке программного обеспечения, науке о данных и машинном обучении (ML). Разработчики используют Python, потому что он эффективен, прост в изучении и работает на разных платформах. Программы на языке Python можно скачать бесплатно, они совместимы со всеми типами систем и повышают скорость разработки."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "title": "Kotlin news",
+      "subtitle": "Kotlin is super good",
+      "img": "https://img1.daumcdn.net/thumb/R800x0/?scode=mtistory2&fname=https:%2F%2Fblog.kakaocdn.net%2Fdn%2FIzt7y%2FbtqEwSw8gPi%2FBIcQK6fMkn2IkagBaitlTk%2Fimg.png",
+      "views": 1022,
+      "createdAt": "30.02.2022",
+      "userId": "2",
+      "type": ["IT"],
+      "blocks": [
+        {
+          "id": "1",
+          "type": "TEXT",
+          "title": "Заголовок этого блока",
+          "paragraphs": ["Kotlin is cool"]
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "title": "Python news",
+      "subtitle": "Python best practices?",
+      "img": "https://careers.recruiteecdn.com/image/upload/q_auto,f_auto,w_1920,c_limit/production/images/AmI4/t4i_ehOG8KdK.png",
+      "views": 1022,
+      "createdAt": "30.03.2022",
+      "userId": "2",
+      "type": ["IT"],
+      "blocks": [
+        {
+          "id": "1",
+          "type": "TEXT",
+          "title": "Заголовок этого блока",
+          "paragraphs": [
+            "Python — это язык программирования, который широко используется в интернет-приложениях, разработке программного обеспечения, науке о данных и машинном обучении (ML). Разработчики используют Python, потому что он эффективен, прост в изучении и работает на разных платформах. Программы на языке Python можно скачать бесплатно, они совместимы со всеми типами систем и повышают скорость разработки."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "title": "Kotlin news",
+      "subtitle": "Kotlin is super good",
+      "img": "https://img1.daumcdn.net/thumb/R800x0/?scode=mtistory2&fname=https:%2F%2Fblog.kakaocdn.net%2Fdn%2FIzt7y%2FbtqEwSw8gPi%2FBIcQK6fMkn2IkagBaitlTk%2Fimg.png",
+      "views": 1022,
+      "createdAt": "30.02.2022",
+      "userId": "2",
+      "type": ["IT"],
+      "blocks": [
+        {
+          "id": "1",
+          "type": "TEXT",
+          "title": "Заголовок этого блока",
+          "paragraphs": ["Kotlin is cool"]
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "title": "Python news",
+      "subtitle": "Python best practices?",
+      "img": "https://careers.recruiteecdn.com/image/upload/q_auto,f_auto,w_1920,c_limit/production/images/AmI4/t4i_ehOG8KdK.png",
+      "views": 1022,
+      "createdAt": "30.03.2022",
+      "userId": "2",
+      "type": ["IT"],
+      "blocks": [
+        {
+          "id": "1",
+          "type": "TEXT",
+          "title": "Заголовок этого блока",
+          "paragraphs": [
+            "Python — это язык программирования, который широко используется в интернет-приложениях, разработке программного обеспечения, науке о данных и машинном обучении (ML). Разработчики используют Python, потому что он эффективен, прост в изучении и работает на разных платформах. Программы на языке Python можно скачать бесплатно, они совместимы со всеми типами систем и повышают скорость разработки."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "title": "Kotlin news",
+      "subtitle": "Kotlin is super good",
+      "img": "https://img1.daumcdn.net/thumb/R800x0/?scode=mtistory2&fname=https:%2F%2Fblog.kakaocdn.net%2Fdn%2FIzt7y%2FbtqEwSw8gPi%2FBIcQK6fMkn2IkagBaitlTk%2Fimg.png",
+      "views": 1022,
+      "createdAt": "30.02.2022",
+      "userId": "2",
+      "type": ["IT"],
+      "blocks": [
+        {
+          "id": "1",
+          "type": "TEXT",
+          "title": "Заголовок этого блока",
+          "paragraphs": ["Kotlin is cool"]
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "title": "Python news",
+      "subtitle": "Python best practices?",
+      "img": "https://careers.recruiteecdn.com/image/upload/q_auto,f_auto,w_1920,c_limit/production/images/AmI4/t4i_ehOG8KdK.png",
+      "views": 1022,
+      "createdAt": "30.03.2022",
+      "userId": "2",
+      "type": ["IT"],
+      "blocks": [
+        {
+          "id": "1",
+          "type": "TEXT",
+          "title": "Заголовок этого блока",
+          "paragraphs": [
+            "Python — это язык программирования, который широко используется в интернет-приложениях, разработке программного обеспечения, науке о данных и машинном обучении (ML). Разработчики используют Python, потому что он эффективен, прост в изучении и работает на разных платформах. Программы на языке Python можно скачать бесплатно, они совместимы со всеми типами систем и повышают скорость разработки."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "title": "Kotlin news",
+      "subtitle": "Kotlin is super good",
+      "img": "https://img1.daumcdn.net/thumb/R800x0/?scode=mtistory2&fname=https:%2F%2Fblog.kakaocdn.net%2Fdn%2FIzt7y%2FbtqEwSw8gPi%2FBIcQK6fMkn2IkagBaitlTk%2Fimg.png",
+      "views": 1022,
+      "createdAt": "30.02.2022",
+      "userId": "2",
+      "type": ["IT"],
+      "blocks": [
+        {
+          "id": "1",
+          "type": "TEXT",
+          "title": "Заголовок этого блока",
+          "paragraphs": ["Kotlin is cool"]
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "title": "Python news",
+      "subtitle": "Python best practices?",
+      "img": "https://careers.recruiteecdn.com/image/upload/q_auto,f_auto,w_1920,c_limit/production/images/AmI4/t4i_ehOG8KdK.png",
+      "views": 1022,
+      "createdAt": "30.03.2022",
+      "userId": "2",
+      "type": ["IT"],
+      "blocks": [
+        {
+          "id": "1",
+          "type": "TEXT",
+          "title": "Заголовок этого блока",
+          "paragraphs": [
+            "Python — это язык программирования, который широко используется в интернет-приложениях, разработке программного обеспечения, науке о данных и машинном обучении (ML). Разработчики используют Python, потому что он эффективен, прост в изучении и работает на разных платформах. Программы на языке Python можно скачать бесплатно, они совместимы со всеми типами систем и повышают скорость разработки."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "title": "Kotlin news",
+      "subtitle": "Kotlin is super good",
+      "img": "https://img1.daumcdn.net/thumb/R800x0/?scode=mtistory2&fname=https:%2F%2Fblog.kakaocdn.net%2Fdn%2FIzt7y%2FbtqEwSw8gPi%2FBIcQK6fMkn2IkagBaitlTk%2Fimg.png",
+      "views": 1022,
+      "createdAt": "30.02.2022",
+      "userId": "2",
+      "type": ["IT"],
+      "blocks": [
+        {
+          "id": "1",
+          "type": "TEXT",
+          "title": "Заголовок этого блока",
+          "paragraphs": ["Kotlin is cool"]
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "title": "Python news",
+      "subtitle": "Python best practices?",
+      "img": "https://careers.recruiteecdn.com/image/upload/q_auto,f_auto,w_1920,c_limit/production/images/AmI4/t4i_ehOG8KdK.png",
+      "views": 1022,
+      "createdAt": "30.03.2022",
+      "userId": "2",
+      "type": ["IT"],
+      "blocks": [
+        {
+          "id": "1",
+          "type": "TEXT",
+          "title": "Заголовок этого блока",
+          "paragraphs": [
+            "Python — это язык программирования, который широко используется в интернет-приложениях, разработке программного обеспечения, науке о данных и машинном обучении (ML). Разработчики используют Python, потому что он эффективен, прост в изучении и работает на разных платформах. Программы на языке Python можно скачать бесплатно, они совместимы со всеми типами систем и повышают скорость разработки."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "title": "Kotlin news",
+      "subtitle": "Kotlin is super good",
+      "img": "https://img1.daumcdn.net/thumb/R800x0/?scode=mtistory2&fname=https:%2F%2Fblog.kakaocdn.net%2Fdn%2FIzt7y%2FbtqEwSw8gPi%2FBIcQK6fMkn2IkagBaitlTk%2Fimg.png",
+      "views": 1022,
+      "createdAt": "30.02.2022",
+      "userId": "2",
+      "type": ["IT"],
+      "blocks": [
+        {
+          "id": "1",
+          "type": "TEXT",
+          "title": "Заголовок этого блока",
+          "paragraphs": ["Kotlin is cool"]
         }
       ]
     }
