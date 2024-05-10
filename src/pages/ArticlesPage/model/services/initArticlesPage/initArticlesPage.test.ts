@@ -14,9 +14,24 @@ describe('initArticlesPage.test', () => {
       },
     });
 
-    await thunk.callThunk();
+    await thunk.callThunk(new URLSearchParams());
 
     expect(thunk.dispatch).toBeCalledTimes(4);
+    expect(articlesPageActions.initState).toBeCalled();
+    expect(fetchArticlesList).toBeCalled();
+  });
+
+  test('if there is query params', async () => {
+    const thunk = new TestAsyncThunk(initArticlesPage, {
+      articlesPage: {
+        _inited: false,
+      },
+    });
+
+    const urlSearchParams = new URLSearchParams('?sort=desc&search=123');
+    await thunk.callThunk(urlSearchParams);
+
+    expect(thunk.dispatch).toBeCalledTimes(6);
     expect(articlesPageActions.initState).toBeCalled();
     expect(fetchArticlesList).toBeCalled();
   });
@@ -28,7 +43,7 @@ describe('initArticlesPage.test', () => {
       },
     });
 
-    await thunk.callThunk();
+    await thunk.callThunk(new URLSearchParams());
 
     expect(articlesPageActions.initState).not.toBeCalled();
     expect(fetchArticlesList).not.toBeCalled();

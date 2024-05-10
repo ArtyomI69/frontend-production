@@ -1,6 +1,15 @@
 .Wrapper {
   display: flex;
+}
+
+.column {
   flex-direction: column;
+}
+
+.row {
+  flex-direction: row;
+  align-items: center;
+  gap: 8px;
 }
 
 .select {
