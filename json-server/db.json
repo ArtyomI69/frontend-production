@@ -20,7 +20,9 @@
       "views": 99123,
       "createdAt": "26.02.2022",
       "userId": "1",
-      "type": ["IT, ECONOMICS"],
+      "type": [
+        "IT, ECONOMICS"
+      ],
       "blocks": [
         {
           "id": "1",
@@ -90,7 +92,9 @@
       "views": 321,
       "createdAt": "30.03.2022",
       "userId": "2",
-      "type": ["SCIENCE"],
+      "type": [
+        "SCIENCE"
+      ],
       "blocks": [
         {
           "id": "1",
@@ -110,13 +114,17 @@
       "views": 90,
       "createdAt": "30.02.2022",
       "userId": "2",
-      "type": ["IT"],
+      "type": [
+        "IT"
+      ],
       "blocks": [
         {
           "id": "1",
           "type": "TEXT",
           "title": "Заголовок этого блока",
-          "paragraphs": ["Kotlin is cool"]
+          "paragraphs": [
+            "Kotlin is cool"
+          ]
         }
       ]
     },
@@ -128,13 +136,17 @@
       "views": 1022,
       "createdAt": "30.02.2022",
       "userId": "2",
-      "type": ["ECONOMICS"],
+      "type": [
+        "ECONOMICS"
+      ],
       "blocks": [
         {
           "id": "1",
           "type": "TEXT",
           "title": "Заголовок этого блока",
-          "paragraphs": ["Kotlin is cool"]
+          "paragraphs": [
+            "Kotlin is cool"
+          ]
         }
       ]
     },
@@ -146,7 +158,9 @@
       "views": 1022,
       "createdAt": "30.03.2022",
       "userId": "2",
-      "type": ["IT"],
+      "type": [
+        "IT"
+      ],
       "blocks": [
         {
           "id": "1",
@@ -166,13 +180,17 @@
       "views": 1022,
       "createdAt": "30.02.2022",
       "userId": "2",
-      "type": ["SCIENCE"],
+      "type": [
+        "SCIENCE"
+      ],
       "blocks": [
         {
           "id": "1",
           "type": "TEXT",
           "title": "Заголовок этого блока",
-          "paragraphs": ["Kotlin is cool"]
+          "paragraphs": [
+            "Kotlin is cool"
+          ]
         }
       ]
     },
@@ -184,7 +202,9 @@
       "views": 1022,
       "createdAt": "30.03.2022",
       "userId": "2",
-      "type": ["ECONOMICS"],
+      "type": [
+        "ECONOMICS"
+      ],
       "blocks": [
         {
           "id": "1",
@@ -204,13 +224,17 @@
       "views": 1022,
       "createdAt": "30.02.2022",
       "userId": "2",
-      "type": ["IT"],
+      "type": [
+        "IT"
+      ],
       "blocks": [
         {
           "id": "1",
           "type": "TEXT",
           "title": "Заголовок этого блока",
-          "paragraphs": ["Kotlin is cool"]
+          "paragraphs": [
+            "Kotlin is cool"
+          ]
         }
       ]
     },
@@ -222,7 +246,9 @@
       "views": 1022,
       "createdAt": "30.03.2022",
       "userId": "2",
-      "type": ["IT"],
+      "type": [
+        "IT"
+      ],
       "blocks": [
         {
           "id": "1",
@@ -242,13 +268,17 @@
       "views": 1022,
       "createdAt": "30.02.2022",
       "userId": "2",
-      "type": ["IT"],
+      "type": [
+        "IT"
+      ],
       "blocks": [
         {
           "id": "1",
           "type": "TEXT",
           "title": "Заголовок этого блока",
-          "paragraphs": ["Kotlin is cool"]
+          "paragraphs": [
+            "Kotlin is cool"
+          ]
         }
       ]
     },
@@ -260,7 +290,9 @@
       "views": 1022,
       "createdAt": "30.03.2022",
       "userId": "2",
-      "type": ["IT"],
+      "type": [
+        "IT"
+      ],
       "blocks": [
         {
           "id": "1",
@@ -280,13 +312,17 @@
       "views": 1,
       "createdAt": "30.02.2022",
       "userId": "2",
-      "type": ["IT"],
+      "type": [
+        "IT"
+      ],
       "blocks": [
         {
           "id": "1",
           "type": "TEXT",
           "title": "Заголовок этого блока",
-          "paragraphs": ["Kotlin is cool"]
+          "paragraphs": [
+            "Kotlin is cool"
+          ]
         }
       ]
     },
@@ -298,7 +334,9 @@
       "views": 1022,
       "createdAt": "30.03.2022",
       "userId": "2",
-      "type": ["IT"],
+      "type": [
+        "IT"
+      ],
       "blocks": [
         {
           "id": "1",
@@ -318,13 +356,17 @@
       "views": 1022,
       "createdAt": "30.02.2022",
       "userId": "2",
-      "type": ["IT"],
+      "type": [
+        "IT"
+      ],
       "blocks": [
         {
           "id": "1",
           "type": "TEXT",
           "title": "Заголовок этого блока",
-          "paragraphs": ["Kotlin is cool"]
+          "paragraphs": [
+            "Kotlin is cool"
+          ]
         }
       ]
     },
@@ -336,7 +378,9 @@
       "views": 1022,
       "createdAt": "30.03.2022",
       "userId": "2",
-      "type": ["IT"],
+      "type": [
+        "IT"
+      ],
       "blocks": [
         {
           "id": "1",
@@ -356,13 +400,17 @@
       "views": 2,
       "createdAt": "30.02.2022",
       "userId": "2",
-      "type": ["IT"],
+      "type": [
+        "IT"
+      ],
       "blocks": [
         {
           "id": "1",
           "type": "TEXT",
           "title": "Заголовок этого блока",
-          "paragraphs": ["Kotlin is cool"]
+          "paragraphs": [
+            "Kotlin is cool"
+          ]
         }
       ]
     },
@@ -374,7 +422,9 @@
       "views": 123,
       "createdAt": "30.03.2022",
       "userId": "2",
-      "type": ["IT"],
+      "type": [
+        "IT"
+      ],
       "blocks": [
         {
           "id": "1",
@@ -394,13 +444,17 @@
       "views": 1022,
       "createdAt": "30.02.2022",
       "userId": "2",
-      "type": ["IT"],
+      "type": [
+        "IT"
+      ],
       "blocks": [
         {
           "id": "1",
           "type": "TEXT",
           "title": "Заголовок этого блока",
-          "paragraphs": ["Kotlin is cool"]
+          "paragraphs": [
+            "Kotlin is cool"
+          ]
         }
       ]
     },
@@ -412,7 +466,9 @@
       "views": 1022,
       "createdAt": "30.03.2022",
       "userId": "2",
-      "type": ["IT"],
+      "type": [
+        "IT"
+      ],
       "blocks": [
         {
           "id": "1",
@@ -432,13 +488,17 @@
       "views": 1022,
       "createdAt": "30.02.2022",
       "userId": "2",
-      "type": ["IT"],
+      "type": [
+        "IT"
+      ],
       "blocks": [
         {
           "id": "1",
           "type": "TEXT",
           "title": "Заголовок этого блока",
-          "paragraphs": ["Kotlin is cool"]
+          "paragraphs": [
+            "Kotlin is cool"
+          ]
         }
       ]
     },
@@ -450,7 +510,9 @@
       "views": 1022,
       "createdAt": "30.03.2022",
       "userId": "2",
-      "type": ["IT"],
+      "type": [
+        "IT"
+      ],
       "blocks": [
         {
           "id": "1",
@@ -470,13 +532,17 @@
       "views": 1022,
       "createdAt": "30.02.2022",
       "userId": "2",
-      "type": ["IT"],
+      "type": [
+        "IT"
+      ],
       "blocks": [
         {
           "id": "1",
           "type": "TEXT",
           "title": "Заголовок этого блока",
-          "paragraphs": ["Kotlin is cool"]
+          "paragraphs": [
+            "Kotlin is cool"
+          ]
         }
       ]
     }
@@ -529,6 +595,12 @@
       "userId": "2",
       "text": "kotlin",
       "id": "vpDgveK"
+    },
+    {
+      "articleId": "4",
+      "userId": "2",
+      "text": "test",
+      "id": "XvUDdNY"
     }
   ],
   "users": [
