@@ -1,7 +1,7 @@
 import { ArticleDetails, ArticleList } from 'entities/Article';
 import { FC, memo, useCallback } from 'react';
 import { useTranslation } from 'react-i18next';
-import { useNavigate, useParams } from 'react-router-dom';
+import { useParams } from 'react-router-dom';
 import { classNames } from 'shared/lib/classNames/classNames';
 import cls from './ArticleDetailsPage.module.scss';
 import { Text, TextSize } from 'shared/ui/Text/Text';
@@ -18,8 +18,6 @@ import { useAppDispatch } from 'shared/lib/hooks/useAppDispatch/useAppDispatch';
 import { fetchCommentsByArticleId } from '../../model/services/fetchCommentsByArticleId/fetchCommentsByArticleId';
 import { AddCommentFormAsync } from 'features/addCommentForm';
 import { addCommentForArticle } from '../../model/services/addCommentForArticle/addCommentForArticle';
-import { Button, ButtonTheme } from 'shared/ui/Button/Button';
-import { RoutePath } from 'shared/config/routeConfig/routeConfig';
 import { Page } from 'widgets/Page/Page';
 import { getArticleRecomendations } from '../../model/slice/articleDetailsPageRecomendationsSlice';
 import {
@@ -28,6 +26,7 @@ import {
 } from '../../model/selectors/recomendations';
 import { fetchArticleRecomendations } from '../../model/services/fetchArticleRecomendations/fetchArticleRecomendations';
 import { articleDetailsPageReducer } from '../../model/slice';
+import { ArticleDetailsPageHeader } from '../ArticleDetailsPageHeader/ArticleDetailsPageHeader';
 
 interface ArticleDetailsPageProps {
   className?: string;
@@ -47,11 +46,6 @@ const ArticleDetailsPage: FC<ArticleDetailsPageProps> = (props) => {
   const recomendationsError = useSelector(getArticleRecomendationsError);
   const commentsIsLoading = useSelector(getArticleCommentsIsLoading);
   const dispatch = useAppDispatch();
-  const navigate = useNavigate();
-
-  const onBackToList = useCallback(() => {
-    navigate(RoutePath.articles);
-  }, [navigate]);
 
   const onSendComment = useCallback(
     (text: string) => {
@@ -76,9 +70,7 @@ const ArticleDetailsPage: FC<ArticleDetailsPageProps> = (props) => {
   return (
     <DynamicModuleLoader reducers={reducers} removeAfterUnmount>
       <Page>
-        <Button onClick={onBackToList} theme={ButtonTheme.OUTLINE}>
-          {t('Назад к списку')}
-        </Button>
+        <ArticleDetailsPageHeader />
         <div className={classNames('', {}, [className])}>
           <ArticleDetails id={id} />
           <Text size={TextSize.L} className={cls.commentTitle} title={t('Рекомендуем')} />
