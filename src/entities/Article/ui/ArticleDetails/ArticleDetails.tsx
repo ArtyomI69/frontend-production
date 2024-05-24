@@ -8,12 +8,12 @@ import {
 } from 'shared/lib/components/DynamocModuleLoader/DynamicModuleLoader';
 import cls from './ArticleDetails.module.scss';
 import { useDispatch, useSelector } from 'react-redux';
-import { fetchArticleById } from 'entities/Article/model/services/fetchArticleById/fetchArticleById';
+import { fetchArticleById } from '../../model/services/fetchArticleById/fetchArticleById';
 import {
   getArticleDetailsData,
   getArticleDetailsError,
   getArticleDetailsIsLoading,
-} from 'entities/Article/model/selectors/articleDetails';
+} from '../../model/selectors/articleDetails';
 import { Text, TextAlign, TextSize } from 'shared/ui/Text/Text';
 import { Skeleton } from 'shared/ui/Skeleton/Skeleton';
 import { Avatar } from 'shared/ui/Avatar/Avatar';

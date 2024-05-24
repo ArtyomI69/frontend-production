@@ -1,4 +1,4 @@
-import { Profile } from 'entities/Profile';
+import { Profile } from '../../model/types/profile';
 import { FC } from 'react';
 import { useTranslation } from 'react-i18next';
 import { Currency, CurrencySelect } from 'entities/Currency';

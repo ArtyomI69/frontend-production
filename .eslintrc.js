@@ -22,7 +22,14 @@ module.exports = {
     ecmaVersion: 'latest',
     sourceType: 'module',
   },
-  plugins: ['react', '@typescript-eslint', 'eslint-plugin-prettier', 'i18next', 'react-hooks'],
+  plugins: [
+    'react',
+    '@typescript-eslint',
+    'eslint-plugin-prettier',
+    'i18next',
+    'react-hooks',
+    'plugin-path-checker-my-best-plugin',
+  ],
   rules: {
     'react/jsx-filename-extension': [
       2,
@@ -63,6 +70,7 @@ module.exports = {
     'no-param-reassign': 'off',
     'jsx-a11y/label-has-associated-control': 'off',
     'no-undef': 'off',
+    'plugin-path-checker-my-best-plugin/path-checker': 'error',
   },
   globals: {
     __IS_DEV__: true,

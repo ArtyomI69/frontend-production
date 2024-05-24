@@ -1,5 +1,5 @@
-import { ArticleSortField } from 'entities/Article';
-import { memo, useCallback, useMemo } from 'react';
+import { ArticleSortField } from '../../model/types/article';
+import { memo, useMemo } from 'react';
 import { useTranslation } from 'react-i18next';
 import { classNames } from 'shared/lib/classNames/classNames';
 import { SortOrder } from 'shared/types';
