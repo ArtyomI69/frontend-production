@@ -13,10 +13,20 @@ interface InputProps extends HTMLInputProps {
   value?: string | number;
   onChange?: (value: string) => void;
   readonly?: boolean;
+  maxWidth?: boolean;
 }
 
 export const Input = memo((props: InputProps) => {
-  const { className, label, value, onChange, type = 'text', readonly, ...otherProps } = props;
+  const {
+    className,
+    label,
+    value,
+    onChange,
+    type = 'text',
+    readonly,
+    maxWidth,
+    ...otherProps
+  } = props;
 
   const onChangeHandler = (e: ChangeEvent<HTMLInputElement>) => {
     onChange?.(e.target.value);
@@ -24,6 +34,7 @@ export const Input = memo((props: InputProps) => {
 
   const mods: Mods = {
     [cls.readonly]: readonly,
+    [cls.max]: maxWidth,
   };
 
   return (

@@ -8,6 +8,8 @@ export default ({ config }: { config: Configuration }) => {
     build: '',
     html: '',
     entry: '',
+    locales: '',
+    buildLocales: '',
     src: path.resolve(__dirname, '..', '..', 'src'),
   };
 
